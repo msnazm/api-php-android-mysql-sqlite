@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.portal.full.appmozoou.Main">
+
+    <item android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/app_name"
+        app:showAsAction="ifRoom"
+        android:background="@color/colorIcon"
+        android:orderInCategory="100"/>
+
+
+</menu>

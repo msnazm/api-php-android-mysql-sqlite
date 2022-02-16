@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+<weatherdata>
+	    <id>0</id>
+		<city>روزنامه ها</city>
+		<tempc>5°C</tempc>
+       	<tempf>41°F</tempf>
+		<condition> </condition>
+		<windspeed>2 kmph</windspeed>
+		<icon>newspaper</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>1</id>
+		<city>فرهنگی و هنری</city>
+       	<tempc>خبر های فوتبال، زیبایی و ...</tempc>
+       	<tempf> </tempf>
+		<condition> </condition>
+		<windspeed>5 kmph</windspeed>
+		<icon>culturalandartistic</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>2</id>
+		<city>علمی و فناوری</city>
+		<tempc>سلامت</tempc>
+       	<tempf>73.4°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>scienceandtechnology</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>3</id>
+		<city>اقتصادی</city>
+		<tempc>5°C</tempc>
+       	<tempf>41°F</tempf>
+		<condition> </condition>
+		<windspeed>2 kmph</windspeed>
+		<icon>economic</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>4</id>
+		<city>سلامت و پزشکی</city>
+       	<tempc>18°C</tempc>
+       	<tempf>64.4°F</tempf>
+		<condition> </condition>
+		<windspeed>7 kmph</windspeed>
+		<icon>healthandmedicine</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>5</id>
+		<city>ورزشی</city>
+       	<tempc> </tempc>
+       	<tempf>89.6°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>sport</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>6</id>
+		<city>حوادث و اجتماعی</city>
+       	<tempc> </tempc>
+       	<tempf>89.6°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>socialevents</icon>
+	</weatherdata>
+</Weather>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="colorIconAction">#080808</color>
+    <color name="colorIcon">#303F9F</color>
+    <color name="colorRow">#c3c9f1</color>
+    <item name = "white" type = "color">#FFFFFF</item>
+    <color name="searchViewQueryBackground">#F0F4C3</color><!-- Lime 100 -->
+    <color name="searchViewSubmitBackground">#D7CCC8</color>
+    <color name="primary_material_light_1">#03a9f4</color>
+    <color name="primary_material_light">#ea4c88</color>
+    <color name="primary_dark_material_light">#ff8cc8</color>
+    <color name="accent_material_light">#ff7cb8</color>
+</resources>

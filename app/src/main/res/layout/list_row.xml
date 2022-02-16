@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="horizontal"
+    android:padding="5dip"
+    android:layout_marginTop="@dimen/cardview_default_radius">
+    <!-- android:background="@drawable/list_selector"-->
+    <!-- ListRow Left sied Thumbnail image -->
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dip"
+        android:padding="3dip" >
+
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_gravity="top"
+            android:layout_marginRight="189dip"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/sunny" />
+
+    </LinearLayout>
+
+    <!-- Rightend Arrow -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow" />
+
+    <!-- City-->
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dip"
+
+        android:layout_marginLeft="30dip"
+        android:layout_centerVertical="true"
+        android:paddingBottom ="9dip"
+        android:text="@string/strCity"
+        android:textColor="#040404"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- Weather Information-->
+
+    <TextView
+        android:id="@+id/tvCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:paddingTop="0dip"
+
+        android:text="@string/strWeather"
+        android:textColor="#343434"
+        android:textSize="12dip"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+
+        android:text="@string/strTemp"
+        android:textSize="14dip"
+        android:singleLine="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="100dp"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

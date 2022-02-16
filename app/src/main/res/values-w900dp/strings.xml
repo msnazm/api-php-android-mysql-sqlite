@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="app_name">نرم افزار ورزشی</string>
+
+        <string name="navigation_drawer_open">باز</string>
+        <string name="navigation_drawer_close">بسته</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_weather">Weather Information</string>
+    <string name="strCity">Sydney</string>
+    <string name="strWeather">Sunny</string>
+    <string name="strTemp">32°C</string>
+    <string name="txtTemp">Temp</string>
+    <string name="strWindSpeed">5kmph</string>
+    <string name="txtWindSpeed">WindSpeed</string>
+    <string name="Separator">---</string>
+        <string name="action_settings">جستجو</string>
+        <string name="action_bookmark">علاقمند</string>
+        <string name="txtName">نرم افزار اخبار ورزشی</string>
+        <string name="title_news">خبر های فوتبال</string>
+        <string name="title_art">ورزشکاران</string>
+        <string name="title_business">کسب و کار</string>
+        <string name="title_culture">فرهنگ</string>
+        <string name="title_fun">طنز</string>
+        <string name="title_health">ورزش در تمامی سنین</string>
+        <string name="title_industry">صنعت</string>
+        <string name="title_lifestyle">ورزش در زیبایی اندام</string>
+        <string name="title_religion">دین</string>
+        <string name="title_science">ورزش در درمان</string>
+        <string name="title_sport">ورزش</string>
+        <string name="title_tech">فناوری</string>
+        <string name="title_tourism">ورزش در تمامی رشته ها</string>
+        <string name="title_social">اخبار حوادث و اجتماعی</string>
+        <string name="title_view">جزئیات</string>
+        <string name="title_political">اخبار سیاسی</string>
+        <string name="title_athletic">اخبار ورزشی</string>
+        <string name="title_medicine">اخبار سلامت و پزشکی</string>
+        <string name="title_economic">اخبار اقتصادی</string>
+        <string name="title_scientific">اخبار علمی و فناوری</string>
+        <string name="title_cultural">اخبار فرهنگی و هنری</string>
+        <string name="title_event">رویدادهای روز</string>
+        <string name="title_fashion">مد و زیبایی</string>
+        <string name="title_decoration">دکوراسیون</string>
+        <string name="homekeeping">خانه‎ داری</string>
+        <string name="title_married">همسرداری</string>
+        <string name="title_parenting">فرزندداری</string>
+        <string name="title_pregnancy">دوران بارداری</string>
+        <string name="title_wedding">عروسی</string>
+        <string name="title_plant">پرورش گل و گیاه</string>
+        <string name="title_robotics">رباتیک</string>
+        <string name="title_nanotechnology">نانوتکنولوژی</string>
+        <string name="title_astronomy">نجوم</string>
+        <string name="title_earth">زمین و محیط زیست</string>
+        <string name="title_discovery">اختراعات</string>
+        <string name="title_animal">جانوران</string>
+        <string name="title_paranormal">ماورای طبیعت</string>
+        <string name="title_cognizable">دانستنی</string>
+        <string name="title_toothoral">دهان و دندان</string>
+        <string name="title_psychology">سلامت روان</string>
+        <string name="title_nutrition">نکات تغذیه و سلامتی</string>
+        <string name="title_drug">آشنایی با داروها</string>
+        <string name="title_traditionalmedicine">طب سنتی و داروهای گیاهی</string>
+        <string name="title_medical">بیماری و درمان</string>
+        <string name="title_travel">دانستنی های سفر</string>
+        <string name="title_tourismh">جهانگردی</string>
+        <string name="title_handcraft">هنر در خانه</string>
+        <string name="title_movie">فیلم و سینما</string>
+        <string name="title_photography">عکاسی</string>
+        <string name="title_painting">نقاشی</string>
+        <string name="title_song">موسیقی</string>
+        <string name="title_knowart">هنر شناسی</string>
+        <string name="title_marriage">ازدواج</string>
+        <string name="title_romance">عاشقانه</string>
+        <string name="title_women">خانم ها</string>
+        <string name="title_men">آقایان</string>
+        <string name="title_speech">سخنان بزرگان</string>
+        <string name="title_poetry">شعر</string>
+        <string name="title_story">داستانک</string>
+        <string name="title_text">متن خواندنی</string>
+        <string name="title_cartoon">کاریکاتور</string>
+        <string name="title_proverb">ضرب المثل</string>
+        <string name="title_puzzle">معما</string>
+        <string name="title_entertainment">سرگرمی</string>
+        <string name="title_funnyphotos">عکس خنده دار</string>
+        <string name="title_ironypoetry">شعر طنز</string>
+        <string name="title_ironystory">داستان طنز</string>
+        <string name="title_funnytexts">متن خنده دار</string>
+        <string name="action_refresh">refresh</string>
+        <string name="action_search">جستجو</string>
+        <string name="action_share">اشتراک</string>
+        <string name="title_bookmark">علاقمندیها</string>
+        <string name="action_delete">حذف</string>
+        <string name="action_selectAll">انتخاب همه</string>
+        <string name="action_selectAlldelete">حذف همه</string>
+        <string name="menu">منو</string>
+        <string name="title_activity_scrolling">www.......com</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+        <string name="title_activity_settings">Settings</string>
+
+        <!-- Strings related to Settings -->
+
+        <!-- Example General settings -->
+        <string name="pref_header_general">General</string>
+
+        <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+        <string name="pref_title_display_name">Display name</string>
+        <string name="pref_default_display_name">John Smith</string>
+
+        <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+        <string-array name="pref_example_list_titles">
+            <item>Always</item>
+            <item>When possible</item>
+            <item>Never</item>
+        </string-array>
+        <string-array name="pref_example_list_values">
+            <item>1</item>
+            <item>0</item>
+            <item>-1</item>
+        </string-array>
+
+        <!-- Example settings for Data & Sync -->
+        <string name="pref_header_data_sync">Data &amp; sync</string>
+
+        <string name="pref_title_sync_frequency">Sync frequency</string>
+        <string-array name="pref_sync_frequency_titles">
+            <item>15 minutes</item>
+            <item>30 minutes</item>
+            <item>1 hour</item>
+            <item>3 hours</item>
+            <item>6 hours</item>
+            <item>Never</item>
+        </string-array>
+        <string-array name="pref_sync_frequency_values">
+            <item>15</item>
+            <item>30</item>
+            <item>60</item>
+            <item>180</item>
+            <item>360</item>
+            <item>-1</item>
+        </string-array>
+
+        <string name="pref_title_system_sync_settings">System sync settings</string>
+
+        <!-- Example settings for Notifications -->
+        <string name="pref_header_notifications">Notifications</string>
+
+        <string name="pref_title_new_message_notifications">New message notifications</string>
+
+        <string name="pref_title_ringtone">Ringtone</string>
+        <string name="pref_ringtone_silent">Silent</string>
+
+        <string name="pref_title_vibrate">Vibrate</string>
+        <string name="title_item_list">Items</string>
+        <string name="title_item_detail">Item Detail</string>
+    <string name="title_all_news">جدیدترین موضوع ها از همه تیتر ها</string>
+    <string name="title_main_sport">ورزش</string>
+    <string name="title_main_today">امروز</string>
+    <string name="title_health_main">سلامت</string>
+    <string name="title_cookery_main">آشپزی</string>
+    <string name="title_business_main">کسب و کار</string>
+    <string name="title_science_main">علمی</string>
+    <string name="title_fun_main">سرگرمی</string>
+    <string name="title_biography_main">بیوگرافی</string>
+    <string name="title_wayofsuccess_main">راه موفقیت و ثروت</string>
+    <string name="title_learningenglish_main">یادگیری زبان انگلیسی</string>
+    <string name="action_new_comment">درج نظر</string>
+    <string name="action_see_comment">دیدگاه</string>
+    <string name="action_btn_save_comment">ثبت نظر</string>
+    <string name="action_btn_view_comment">نظراها</string>
+    <string name="action_email_commnet">ایمیل</string>
+    <string name="action_name_commnet">اسم شما</string>
+    <string name="Sharef">معرفی به دوستان</string>
+    <string name="Setting">تنظیمات</string>
+    <string name="help">راهنما</string>
+    <string name="about">درباره ما</string>
+    <string name="like">امتیاز شما:</string>
+    <string name="full_like">امتیاز کل:</string>
+    <string name="butterfly_html">butterfly_html_page.html</string>
+    <string name="title_addcomment">ثبت نظر</string>
+    <string name="title_listcomment">نظرها</string>
+    <string name="title_academicadvice">مشاوره تحصیلی</string>
+    <string name="title_counseling">مشاوره و روانشناسی</string>
+    <string name="title_housekeeping">خانه داری</string>
+    <string name="title_knowmarriage">دانستنیهای قبل و بعد از ازدواج</string>
+    <string name="title_marriagecounseling">مشاوره و ازدواج</string>
+    <string name="title_pregnancyandchildbirth">بارداری و زایمان</string>
+    <string name="title_psychologyofchildren">روانشناسی فرزندان</string>
+    <string name="title_treatingahusband">همسرداری</string>
+    <string name="title_culturalandartistic">فرهنگی و هنری</string>
+    <string name="title_healthandmedicine">سلامت و پزشکی</string>
+    <string name="title_scienceandtechnology">علمی و فناوری</string>
+    <string name="title_socialevents">حوادث و اجتماعی</string>
+    <string name="title_sportnews">ورزشی</string>
+    <string name="title_lifestylemain">روانشناسی و سبک زندگی</string>
+    <string name="title_newmain">اخبار</string>
+    <string name="title_newseconomic">اقتصادی</string>
+    <string name="title_newspaperstoday">روزنامه ها</string>
+    <string name="title_diseaseandtreatment">بیماری و درمان</string>
+    <string name="title_mentalhealth">سلامت روان</string>
+    <string name="title_mouthandtoothn">دهان و دندان</string>
+    <string name="title_nutritionandhealthtips">تغذیه و راهنمایی بهداشت</string>
+    <string name="title_skinandhair">پوست و مو</string>
+    <string name="title_traditionalmedicineandherbalremedies">طب سنتی و داروهای گیاهی</string>
+    <string name="title_understandingmedications">درک داروها</string>
+    <string name="title_cookingtips">نکات مهم آشپزی</string>
+    <string name="title_dietfood">غذاهای رژیمی</string>
+    <string name="title_foodpreservation">نگهداری مواد غذایی</string>
+    <string name="title_ofpastry">انواع شیرینی پزی</string>
+    <string name="title_productlongevity">غذاهای طول عمر</string>
+    <string name="title_chemistryandphysics">شیمی و فیزیک</string>
+    <string name="title_patents">اختراعات</string>
+    <string name="title_supernatural">ماورای طبیعت</string>
+    <string name="title_caricature">کاریکاتور</string>
+    <string name="title_lovepoem">شعر عاشقانه</string>
+    <string name="title_romantictext">متن عاشقانه</string>
+    <string name="title_fortunetellinghoroscope">فال و طالع بینی</string>
+    <string name="title_funnytext">متن خنده دار</string>
+    <string name="title_mystery">معما</string>
+    <string name="title_alie">دروغ</string>
+    <string name="title_beautiful">زیبا</string>
+    <string name="title_birth">تولد</string>
+    <string name="title_cheers">به سلامتی</string>
+    <string name="title_consolation">تسلیت</string>
+    <string name="title_death">مرگ</string>
+    <string name="title_depressed">غمگین</string>
+    <string name="title_disappointment">ناامیدی</string>
+    <string name="title_disloyalty">بی وفایی</string>
+    <string name="title_doyouknow">آیا میدانید</string>
+    <string name="title_expectation">انتظار</string>
+    <string name="title_factson">دانستنی ها</string>
+    <string name="title_fidget">بی قراری</string>
+    <string name="title_forgetfulness">فراموشی</string>
+    <string name="title_funny">خنده دار</string>
+    <string name="title_goodnight">شب بخیر</string>
+    <string name="title_goodbye">خداحافظی</string>
+    <string name="title_harmful">سرکاری</string>
+    <string name="title_heavy">سنگین</string>
+    <string name="title_homesick">دلتنگی</string>
+    <string name="title_hookah">قلیان</string>
+    <string name="title_ilove">دوست دارم</string>
+    <string name="title_jawandfamily">فک و فامیل</string>
+    <string name="title_karykalmatvr">کاریکالماتور</string>
+    <string name="title_kiss">بوسه</string>
+    <string name="title_loneliness">تنهایی</string>
+    <string name="title_new">جدید</string>
+    <string name="title_pnapa">پ نه پ</string>
+    <string name="title_palandfriendship">رفیق و رفاقت</string>
+    <string name="title_pathetic">سوزناک</string>
+    <string name="title_philosophic">فلسفی</string>
+    <string name="title_pieceof">تیکه دار</string>
+    <string name="title_pride">غرور</string>
+    <string name="title_rain">باران</string>
+    <string name="title_regret">حسرت</string>
+    <string name="title_romantic">عاشقانه</string>
+    <string name="title_separation">جدایی</string>
+    <string name="title_silence">سکوت</string>
+    <string name="title_smileywith">شکلک دار</string>
+    <string name="title_smokingbars">کافه سیگار</string>
+    <string name="title_space">فاصله</string>
+    <string name="title_thecar">پشت ماشینی</string>
+    <string name="title_thememories">خاطرات</string>
+    <string name="title_treason">خیانت</string>
+    <string name="title_wish">آرزو</string>
+    <string name="title_typesofmessages">انواع پیامها</string>
+    <string name="title_actors">بازیگران</string>
+    <string name="title_athlete">ورزشگاران</string>
+    <string name="title_readers">خوانندگان</string>
+    <string name="title_headlines">تیتر روزنامه ها</string>
+    <string name="title_athletes">ورزشکاران</string>
+    <string name="title_exercisetherapy">ورزش در درمان</string>
+    <string name="title_footballnews">اخبار فوتبال</string>
+    <string name="title_sportallages">ورزش در تمامی سنین</string>
+    <string name="title_sportsfitness">ورزش در زیبایی اندام</string>
+    <string name="title_sportsinallfields">ورزش در تمامی رشته ها</string>
+    <string name="title_tablelink">جدول لینک</string>
+    <string name="title_artandcommerce">هنر و تجارت</string>
+    <string name="title_bodylanguage">زبان بدن</string>
+    <string name="lablestar">امتیاز:</string>
+    <string name="star">0</string>
+    <string name="action_sort_word">ترتیب بر اساس حروف</string>
+    <string name="action_sort_like">ترتیب بر اساس امتیاز</string>
+    <string name="action_sort_t">ترتیب بر اساس تاریخ</string>
+    <string name="title_lable">تعداد نظرها</string>
+    <string name="action_sort_s">ترتیب بر اساس امتیاز</string>
+    <string name="action_sort_e">ترتیب بر اساس بهترینها</string>
+    <string name="app_mozoou">موضوع</string>
+    <string name="first">اولین اپلیکیشن جامع</string>
+    <string name="email">info@mozoou.com</string>
+    <string name="app_name_en">Mozoou</string>
+    <string name="title_about">درباره ما</string>
+    <string name="title_av">تبلیغات</string>
+    <string name="title_help">راهنما</string>
+    <string name="title_Words">لغات</string>
+    <string name="title_EnPoetry">شعر</string>
+    <string name="title_EnNews">خبر</string>
+    <string name="title_Book">کتاب</string>
+    <string name="title_Conversation">مکالمه</string>
+    <string name="title_Grammar">گرامر</string>
+    <string name="title_Story">داستان</string>
+    <string name="title_DownloadMain">دانلودها</string>
+    <string name="title_Game">دانلود بازی</string>
+    <string name="title_Program">دانلود برنامه اندروید</string>
+    <string name="title_Navad">روزنامه نود</string>
+    <string name="title_health_Aftab">روزنامه آفتاب</string>
+    <string name="title_Arman">آرمان</string>
+    <string name="title_Asreghtesad">عصر اقتصاد</string>
+    <string name="title_Banifilm">بانی فیلم</string>
+    <string name="title_Donyayeeghtesad">دنیای اقتصاد</string>
+    <string name="title_Esteghlal">استقلال</string>
+    <string name="title_Etemad">اعتماد</string>
+    <string name="title_Gol">گل</string>
+    <string name="title_Haftsobh">هفت صبح</string>
+    <string name="title_Hamshahri">همشهری</string>
+    <string name="title_Iran">ایران</string>
+    <string name="title_Iranvarzeshi">ایران ورزشی</string>
+    <string name="title_Jahanesanat">جهان صنعت</string>
+    <string name="title_Jamejam">جام جم</string>
+    <string name="title_Kasbokar">کسب و کار</string>
+    <string name="title_Keyhan">کیهان</string>
+    <string name="title_Khabarvarzeshi">خبر ورزشی</string>
+    <string name="title_Mardomsalari">مردم سالاری</string>
+    <string name="title_Pirozi">پیروزی</string>
+    <string name="title_Shargh">شرق</string>
+    <string name="title_Khorasanvarzeshi">خراسان ورزشی</string>
+    <string name="title_contact">تماس با ما</string>
+    <string name="title_tablelinktop">جدول لیگ برتر</string>
+    <string name="action_btn_save_star">ثبت فقط امتیاز</string>
+    <string name="action_sort_d">داغ ترینها</string>
+    <string name="action_sort_dagh">ترتیب بر اساس داغ ترینها</string>
+    <string name="action_all_search">جستجوی کلیه مطالب</string>
+    <string name="action_contact"> ما در مجموعه شرکت \" موضوع \"   همواره تلاش می کنیم مفیدترین بخش ها، مطالب و خبرها در بروزرسانیهای دیگر ارائه نرم افزارهای برای موضوع ها و ایجاد گذاشتن موضوع های مختلف توسط کاربرهای محترم  را برای شما محیا نماییم،  نظرات خود را برای ما ارسال فرمایید و جهت ارتباط مستقیم با بخش های مختلف نرم افزار \" موضوع \" از راه های زیر استفاده نمایید:  email:info@mozoou.com  Id Telegram @mozoou  tel:0901-569-0718  و یا از طریق فرم زیر نظر خود را ارسال کنید.</string>
+    <string name="contact">ما در مجموعه شرکت  \" موضوع \"  همواره تلاش می کنیم مفیدترین بخش ها، مطالب و خبرها و در بروزرسانیهای دیگر ارائه نرم افزارهایی برای موضوع ها و ایجاد گذاشتن موضوع های مختلف توسط کاربرهای محترم  را برای شما محیا نماییم،نظرات خود را برای ما ارسال فرمایید و جهت ارتباط مستقیم با بخش های مختلف نرم افزار \" موضوع \" از راه های زیر استفاده نمایید:  email:info@mozoou.com       Id Telegram @mozoou            tel:0901-569-0718  و یا از طریق فرم زیر نظر خود را ارسال کنید.</string>
+    <string name="contacts">جهت ارتباط مستقیم با بخش های مختلف نرم افزار \" موضوع \" از راه های زیر استفاده نمایید:  email:info@mozoou.com       Id Telegram @mozoou            tel:0901-569-0718  و یا از طریق فرم زیر نظر خود را ارسال کنید.</string>
+    <string name="contactss">جهت ارتباط مستقیم با بخش های مختلف نرم افزار \" موضوع \" از راه های زیر استفاده نمایید:  email:info@mozoou.com       Id Telegram @mozoou            tel:0901-569-0718  و یا از طریق فرم زیر نظر خود را ارسال کنید.</string>
+    <string name="contactabout">جهت ارتباط مستقیم با بخش های مختلف نرم افزار \" موضوع \" از راه های زیر استفاده نمایید:  email:info@mozoou.com    Id Telegram @mozoou          tel:0901-569-0718  و یا از طریق فرم زیر نظر خود را ارسال کنید.</string>
+    <string name="contact1">جهت ارتباط مستقیم با بخش های مختلف نرم افزار \" موضوع \" از راه های زیر استفاده نمایید:</string>
+    <string name="contact2">email:info@mozoou.com</string>
+    <string name="contact3">Id Telegram @mozoou</string>
+    <string name="contact4">tel:0901-569-0718</string>
+    <string name="contact5">و یا از طریق فرم زیر نظر خود را ارسال کنید.</string>
+    <string name="action_comment_ok">کاربر محترم نظر شما بعد از تایید در تایید نمایش داده میشود.</string>
+    <string name="action_comment_oks">سرور گرامی نظر شما بعد از تایید نمایش داده می شود.</string>
+
+
+</resources>

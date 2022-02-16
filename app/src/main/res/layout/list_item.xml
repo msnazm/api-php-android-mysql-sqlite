@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:minHeight="30dp"
+        android:textSize="@dimen/size_textview"
+        android:layout_gravity="right"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:visibility="gone"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView3"
+            android:src="@mipmap/ic_comments" />
+
+        <TextView
+            android:id="@+id/numbercomment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorIconAction"
+
+            android:minHeight="30dp"
+            android:textSize="@dimen/size_textview"
+            android:layout_gravity="left"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView2"
+            android:src="@mipmap/ic_eyes" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/eye"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView4"
+            android:src="@mipmap/ic_stars" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/starv"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <!--     android:minHeight="?android:attr/listPreferredItemHeightSmall"-->
+    <!-- android:textAppearance="?android:attr/textAppearanceListItemSmall"-->
+
+</TableLayout>

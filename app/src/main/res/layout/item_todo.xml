@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right">
+    <TextView
+        android:id="@+id/task_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="20sp"
+        android:gravity="right"
+        android:layout_alignBottom="@+id/task_delete"
+        android:layout_toEndOf="@+id/task_delete" />
+    <TextView
+        android:id="@+id/task_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="20sp"
+        android:gravity="right"
+        android:layout_alignBottom="@+id/task_delete"
+        android:layout_toEndOf="@+id/task_delete" />
+    <TextView
+        android:id="@+id/task_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="right"
+        android:layout_toEndOf="@+id/task_delete"
+        android:layout_toRightOf="@+id/task_delete" />
+    <Button
+        android:id="@+id/task_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="deleteTask"
+        android:text="Done"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/task_content"
+        android:layout_alignParentBottom="false" />
+</RelativeLayout>

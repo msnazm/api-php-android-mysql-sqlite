@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+	<weatherdata>
+	    <id>1</id>
+		<city>هنر و تجارت</city>
+       	<tempc>خبر های فوتبال، زیبایی و ...</tempc>
+       	<tempf> </tempf>
+		<condition> </condition>
+		<windspeed>5 kmph</windspeed>
+		<icon>artandcommerce</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>2</id>
+		<city>زبان بدن</city>
+		<tempc>سلامت</tempc>
+       	<tempf>73.4°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>bodylanguage</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>3</id>
+		<city>کسب و کار</city>
+		<tempc>5°C</tempc>
+       	<tempf>41°F</tempf>
+		<condition> </condition>
+		<windspeed>2 kmph</windspeed>
+		<icon>business</icon>
+	</weatherdata>
+	
+
+</Weather>

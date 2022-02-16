@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/home"
+        android:title="@string/action_bookmark"
+        android:icon="@mipmap/ic_launcher_home"
+        android:background="@color/colorIcon"
+
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_bookmark_off"
+        android:title="@string/action_bookmark"
+        android:icon="@mipmap/ic_bookmark_off"
+        android:background="@color/colorIcon"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_bookmark_on"
+        android:title="@string/action_bookmark"
+        android:icon="@mipmap/ic_bookmark_on"
+        android:background="@color/colorIcon"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/action_share"
+        android:background="@color/colorIcon"
+        android:icon="@mipmap/ic_share_all"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_all_comment"
+        android:title="@string/action_allcomment"
+        android:background="@color/colorIcon"
+        android:icon="@mipmap/ic_all_comment"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_new_comment"
+        android:title="@string/action_new_comment"
+        android:background="@color/colorIcon"
+        android:icon="@mipmap/ic_add_comment"
+        app:showAsAction="always" />
+
+</menu>

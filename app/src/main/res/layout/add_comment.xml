@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".AddComment"
+    android:weightSum="1"
+    android:gravity="end">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextcomment_Date"
+        android:visibility="gone" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextcomment_post_ID"
+        android:visibility="gone"
+      />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextcomment_author"
+        android:hint="@string/action_name_commnet" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextcomment_author_emailary"
+        android:hint="@string/action_email_commnet" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextcomment_content"
+        android:hint="@string/action_see_comment"
+        android:layout_weight="0.60" />
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="35dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/star"
+            android:id="@+id/txtRatingValueAdd"
+            android:layout_gravity="right"
+            android:gravity="bottom"
+            android:textAlignment="center"
+            android:layout_weight="0.03"
+            android:inputType="number"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+
+    </TableRow>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar2"
+        android:layout_gravity="center"
+        android:stepSize="1"
+        android:numStars="5"
+        android:secondaryProgress="5"
+        android:secondaryProgressTint="#8c93f9" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_btn_save_star"
+        android:id="@+id/btnStar" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_btn_save_comment"
+        android:id="@+id/buttonAdd" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/action_comment_oks"
+        android:id="@+id/textView6"
+        android:textColor="#3F51B5"
+        android:gravity="right" />
+
+</LinearLayout>

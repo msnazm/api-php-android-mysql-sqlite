@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.portal.full.appmozoou">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+    <supports-screens android:requiresSmallestWidthDp="600" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE"/> -->
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_mozoou"
+        android:label="@string/app_mozoou"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Main"
+            android:icon="@mipmap/ic_mozoou"
+            android:label="@string/app_name_en"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdvInsert"
+            android:label="@string/title_bookmark"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".BookMark"
+            android:label="@string/title_bookmark"
+            android:parentActivityName=".BookMark">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".ViewBookmark"
+            android:label="@string/title_bookmark"
+            android:parentActivityName=".BookMark">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".ViewContact"
+            android:label="@string/title_contact"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".ViewAbout"
+            android:label="@string/title_about"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".ViewAv"
+            android:label="@string/title_av"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".ViewHelp"
+            android:label="@string/title_help"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".AddComment"
+            android:label="@string/title_addcomment"
+            android:parentActivityName=".AddComment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".ListComment"
+            android:label="@string/title_listcomment"
+            android:parentActivityName=".ListComment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Find"
+            android:label="@string/action_all_search"
+            android:parentActivityName=".Find">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".AddContact"
+            android:label="@string/action_comment"
+            android:parentActivityName=".Find">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".ViewNews"
+            android:parentActivityName=".ViewNews">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.ViewNews" />
+        </activity>
+        <activity
+            android:name=".ViewNewspapers"
+            android:parentActivityName=".ViewNewspapers">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.ViewNewspapers" />
+        </activity>
+        <activity
+            android:name=".ProgramMain"
+            android:label="@string/title_lifestylemain"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".DownloadMain"
+            android:label="@string/title_DownloadMain"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Game"
+            android:label="@string/title_Game"
+            android:parentActivityName=".DownloadMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.DownloadMain" />
+        </activity>
+        <activity
+            android:name=".Program"
+            android:label="@string/title_Program"
+            android:parentActivityName=".DownloadMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.DownloadMain" />
+        </activity>
+        <activity
+            android:name=".LifestyleMain"
+            android:label="@string/title_lifestylemain"
+            android:parentActivityName=".NewsMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".AcademicAdvice"
+            android:label="@string/title_academicadvice"
+            android:parentActivityName=".LifestyleMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Counseling"
+            android:label="@string/title_counseling"
+            android:parentActivityName=".LifestyleMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Housekeeping"
+            android:label="@string/title_housekeeping"
+            android:parentActivityName=".LifestyleMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Knowbeforeandaftermarriage"
+            android:label="@string/title_knowmarriage"
+            android:parentActivityName=".LifestyleMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".MarriageCounseling"
+            android:label="@string/title_marriagecounseling"
+            android:parentActivityName=".LifestyleMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Pregnancyandchildbirth"
+            android:label="@string/title_pregnancyandchildbirth"
+            android:parentActivityName=".LifestyleMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Psychologyofchildren"
+            android:label="@string/title_psychologyofchildren"
+            android:parentActivityName=".LifestyleMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Treatingahusband"
+            android:label="@string/title_treatingahusband"
+            android:parentActivityName=".LifestyleMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".NewsMain"
+            android:label="@string/title_newmain"
+            android:parentActivityName=".NewsMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".CulturalAndArtistic"
+            android:label="@string/title_culturalandartistic"
+            android:parentActivityName=".NewsMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Economic"
+            android:label="@string/title_newseconomic"
+            android:parentActivityName=".NewsMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".HealthAndMedicine"
+            android:label="@string/title_healthandmedicine"
+            android:parentActivityName=".NewsMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".ScienceAndTechnology"
+            android:label="@string/title_scienceandtechnology"
+            android:parentActivityName=".NewsMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".SocialEvents"
+            android:label="@string/title_socialevents"
+            android:parentActivityName=".NewsMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Sport"
+            android:label="@string/title_sportnews"
+            android:parentActivityName=".NewsMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".ViewNewspaper"
+            android:label="@string/title_view"
+            android:parentActivityName=".SampleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.SampleActivity" />
+        </activity>
+        <activity
+            android:name=".ViewPhoneprice"
+            android:label="@string/title_view"
+            android:parentActivityName=".SampleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.SampleActivity" />
+        </activity>
+        <activity
+            android:name=".ViewPrayer"
+            android:label="@string/title_view"
+            android:parentActivityName=".SampleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.SampleActivity" />
+        </activity>
+        <activity
+            android:name=".SportNewsFootball"
+            android:label="@string/title_news"
+            android:parentActivityName=".SampleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.SampleActivity" />
+        </activity>
+        <activity
+            android:name=".SportAll"
+            android:label="@string/title_all_news"
+            android:parentActivityName=".SampleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".TableLink"
+            android:label="@string/title_tablelinktop"
+            android:parentActivityName=".SampleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".SportsInAllFields"
+            android:label="@string/title_sportsinallfields"
+            android:parentActivityName=".SampleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Headlines"
+            android:label="@string/title_headlines"
+            android:parentActivityName=".SampleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".SportsFitness"
+            android:label="@string/title_sportsfitness"
+            android:parentActivityName=".SampleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".SportAllAges"
+            android:label="@string/title_sportallages"
+            android:parentActivityName=".SampleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".FootballNews"
+            android:label="@string/title_footballnews"
+            android:parentActivityName=".SampleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".ExerciseTherapy"
+            android:label="@string/title_exercisetherapy"
+            android:parentActivityName=".SampleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Athletes"
+            android:label="@string/title_athletes"
+            android:parentActivityName=".SampleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".SportVar"
+            android:label="@string/title_art"
+            android:parentActivityName=".SampleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.SampleActivity" />
+        </activity>
+        <activity
+            android:name=".SportVarFullSe"
+            android:label="@string/title_health"
+            android:parentActivityName=".SampleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.SampleActivity" />
+        </activity>
+        <activity
+            android:name=".SportZA"
+            android:label="@string/title_lifestyle"
+            android:parentActivityName=".SampleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.SampleActivity" />
+        </activity>
+        <activity
+            android:name=".SportDa"
+            android:label="@string/title_science"
+            android:parentActivityName=".SampleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.SampleActivity" />
+        </activity>
+        <activity
+            android:name=".SportFullVar"
+            android:label="@string/title_tourism"
+            android:parentActivityName=".SampleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.SampleActivity" />
+        </activity>
+        <activity
+            android:name=".SampleActivity"
+            android:label="@string/title_main_sport"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Today"
+            android:label="@string/title_main_today"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".NewspaperMain"
+            android:label="@string/title_newspaperstoday"
+            android:parentActivityName=".Today">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Navad"
+            android:label="@string/title_Navad"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Aftab"
+            android:label="@string/title_health_Aftab"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Arman"
+            android:label="@string/title_Arman"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Asreghtesad"
+            android:label="@string/title_Asreghtesad"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Banifilm"
+            android:label="@string/title_Banifilm"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Donyayeeghtesad"
+            android:label="@string/title_Donyayeeghtesad"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Esteghlal"
+            android:label="@string/title_Esteghlal"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Etemad"
+            android:label="@string/title_Etemad"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Gol"
+            android:label="@string/title_Gol"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Haftsobh"
+            android:label="@string/title_Haftsobh"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Hamshahri"
+            android:label="@string/title_Hamshahri"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Iran"
+            android:label="@string/title_Iran"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Iranvarzeshi"
+            android:label="@string/title_Iranvarzeshi"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Jahanesanat"
+            android:label="@string/title_Jahanesanat"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Jamejam"
+            android:label="@string/title_Jamejam"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Kasbokar"
+            android:label="@string/title_Kasbokar"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Keyhan"
+            android:label="@string/title_Keyhan"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Khabarvarzeshi"
+            android:label="@string/title_Khabarvarzeshi"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Khorasanvarzeshi"
+            android:label="@string/title_Khorasanvarzeshi"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Mardomsalari"
+            android:label="@string/title_Mardomsalari"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Pirozi"
+            android:label="@string/title_Pirozi"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Shargh"
+            android:label="@string/title_Shargh"
+            android:parentActivityName=".NewspaperMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".HealthMain"
+            android:label="@string/title_health_main"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".DiseaseAndTreatment"
+            android:label="@string/title_diseaseandtreatment"
+            android:parentActivityName=".HealthMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.HealthMain" />
+        </activity>
+        <activity
+            android:name=".MentalHealth"
+            android:label="@string/title_mentalhealth"
+            android:parentActivityName=".HealthMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.HealthMain" />
+        </activity>
+        <activity
+            android:name=".MouthAndTooth"
+            android:label="@string/title_mouthandtoothn"
+            android:parentActivityName=".HealthMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.HealthMain" />
+        </activity>
+        <activity
+            android:name=".NutritionandHealthTips"
+            android:label="@string/title_nutritionandhealthtips"
+            android:parentActivityName=".HealthMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.HealthMain" />
+        </activity>
+        <activity
+            android:name=".SkinAndHair"
+            android:label="@string/title_skinandhair"
+            android:parentActivityName=".HealthMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.HealthMain" />
+        </activity>
+        <activity
+            android:name=".TraditionalMedicineAndHerbalRemedies"
+            android:label="@string/title_traditionalmedicineandherbalremedies"
+            android:parentActivityName=".HealthMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.HealthMain" />
+        </activity>
+        <activity
+            android:name=".UnderstandingMedications"
+            android:label="@string/title_understandingmedications"
+            android:parentActivityName=".HealthMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.HealthMain" />
+        </activity>
+        <activity
+            android:name=".CookeryMain"
+            android:label="@string/title_cookery_main"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".CookingTips"
+            android:label="@string/title_cookingtips"
+            android:parentActivityName=".CookeryMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.CookeryMain" />
+        </activity>
+        <activity
+            android:name=".DietFood"
+            android:label="@string/title_dietfood"
+            android:parentActivityName=".CookeryMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.CookeryMain" />
+        </activity>
+        <activity
+            android:name=".FoodPreservation"
+            android:label="@string/title_foodpreservation"
+            android:parentActivityName=".CookeryMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.CookeryMain" />
+        </activity>
+        <activity
+            android:name=".OfPastry"
+            android:label="@string/title_ofpastry"
+            android:parentActivityName=".CookeryMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.CookeryMain" />
+        </activity>
+        <activity
+            android:name=".ProductLongevity"
+            android:label="@string/title_productlongevity"
+            android:parentActivityName=".CookeryMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.CookeryMain" />
+        </activity>
+        <activity
+            android:name=".BusinessMain"
+            android:label="@string/title_business_main"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".ScienceMain"
+            android:label="@string/title_science_main"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".ChemistryAndPhysics"
+            android:label="@string/title_chemistryandphysics"
+            android:parentActivityName=".ScienceMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.ScienceMain" />
+        </activity>
+        <activity
+            android:name=".NanoTechnology"
+            android:label="@string/title_nanotechnology"
+            android:parentActivityName=".ScienceMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.ScienceMain" />
+        </activity>
+        <activity
+            android:name=".Patents"
+            android:label="@string/title_patents"
+            android:parentActivityName=".ScienceMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.ScienceMain" />
+        </activity>
+        <activity
+            android:name=".Supernatural"
+            android:label="@string/title_supernatural"
+            android:parentActivityName=".ScienceMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.ScienceMain" />
+        </activity>
+        <activity
+            android:name=".FunMain"
+            android:label="@string/title_fun_main"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Caricature"
+            android:label="@string/title_caricature"
+            android:parentActivityName=".FunMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.FunMain" />
+        </activity>
+        <activity
+            android:name=".Lovepoem"
+            android:label="@string/title_lovepoem"
+            android:parentActivityName=".FunMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.FunMain" />
+        </activity>
+        <activity
+            android:name=".Romantictext"
+            android:label="@string/title_romantictext"
+            android:parentActivityName=".FunMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.FunMain" />
+        </activity>
+        <activity
+            android:name=".FortuneTellingHoroscope"
+            android:label="@string/title_fortunetellinghoroscope"
+            android:parentActivityName=".FunMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.FunMain" />
+        </activity>
+        <activity
+            android:name=".FunnyText"
+            android:label="@string/title_funnytext"
+            android:parentActivityName=".FunMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.FunMain" />
+        </activity>
+        <activity
+            android:name=".Mystery"
+            android:label="@string/title_mystery"
+            android:parentActivityName=".FunMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.FunMain" />
+        </activity>
+        <activity
+            android:name=".Proverb"
+            android:label="@string/title_proverb"
+            android:parentActivityName=".FunMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.FunMain" />
+        </activity>
+        <activity
+            android:name=".TypesOfMessagesMain"
+            android:label="@string/title_typesofmessages"
+            android:parentActivityName=".FunMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.FunMain" />
+        </activity>
+        <activity
+            android:name=".Wish"
+            android:label="@string/title_wish"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Alie"
+            android:label="@string/title_alie"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Beautiful"
+            android:label="@string/title_beautiful"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Birth"
+            android:label="@string/title_birth"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Cheers"
+            android:label="@string/title_cheers"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Consolation"
+            android:label="@string/title_consolation"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Death"
+            android:label="@string/title_death"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Depressed"
+            android:label="@string/title_depressed"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Disappointment"
+            android:label="@string/title_disappointment"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Disloyalty"
+            android:label="@string/title_disloyalty"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Doyouknow"
+            android:label="@string/title_doyouknow"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Expectation"
+            android:label="@string/title_expectation"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Factson"
+            android:label="@string/title_factson"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Fidget"
+            android:label="@string/title_fidget"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Forgetfulness"
+            android:label="@string/title_forgetfulness"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Funny"
+            android:label="@string/title_funny"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".GoodNight"
+            android:label="@string/title_goodnight"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Goodbye"
+            android:label="@string/title_goodbye"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Harmful"
+            android:label="@string/title_harmful"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Heavy"
+            android:label="@string/title_heavy"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Homesick"
+            android:label="@string/title_homesick"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Hookah"
+            android:label="@string/title_hookah"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Ilove"
+            android:label="@string/title_ilove"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Jawandfamily"
+            android:label="@string/title_jawandfamily"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Karykalmatvr"
+            android:label="@string/title_karykalmatvr"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Kiss"
+            android:label="@string/title_kiss"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Loneliness"
+            android:label="@string/title_loneliness"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".New"
+            android:label="@string/title_new"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Pnapa"
+            android:label="@string/title_pnapa"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Palandfriendship"
+            android:label="@string/title_palandfriendship"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Pathetic"
+            android:label="@string/title_pathetic"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Philosophic"
+            android:label="@string/title_philosophic"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Pieceof"
+            android:label="@string/title_pieceof"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Poetry"
+            android:label="@string/title_poetry"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Pride"
+            android:label="@string/title_pride"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Rain"
+            android:label="@string/title_rain"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Regret"
+            android:label="@string/title_regret"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Romantic"
+            android:label="@string/title_romantic"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Separation"
+            android:label="@string/title_separation"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Silence"
+            android:label="@string/title_silence"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Smileywith"
+            android:label="@string/title_smileywith"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".SmokingBars"
+            android:label="@string/title_smokingbars"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Space"
+            android:label="@string/title_space"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Thecar"
+            android:label="@string/title_thecar"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Thememories"
+            android:label="@string/title_thememories"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".Treason"
+            android:label="@string/title_treason"
+            android:parentActivityName=".TypesOfMessagesMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.TypesOfMessagesMain" />
+        </activity>
+        <activity
+            android:name=".BiographyMain"
+            android:label="@string/title_biography_main"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Actors"
+            android:label="@string/title_actors"
+            android:parentActivityName=".BiographyMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.BiographyMain" />
+        </activity>
+        <activity
+            android:name=".Athlete"
+            android:label="@string/title_athlete"
+            android:parentActivityName=".BiographyMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.BiographyMain" />
+        </activity>
+        <activity
+            android:name=".Readers"
+            android:label="@string/title_readers"
+            android:parentActivityName=".BiographyMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.BiographyMain" />
+        </activity>
+        <activity
+            android:name=".LearningEnglishMain"
+            android:label="@string/title_learningenglish_main"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Words"
+            android:label="@string/title_Words"
+            android:parentActivityName=".LearningEnglishMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.LearningEnglishMain" />
+        </activity>
+        <activity
+            android:name=".Story"
+            android:label="@string/title_Story"
+            android:parentActivityName=".LearningEnglishMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.LearningEnglishMain" />
+        </activity>
+        <activity
+            android:name=".Grammar"
+            android:label="@string/title_Grammar"
+            android:parentActivityName=".LearningEnglishMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.LearningEnglishMain" />
+        </activity>
+        <activity
+            android:name=".Conversation"
+            android:label="@string/title_Conversation"
+            android:parentActivityName=".LearningEnglishMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.LearningEnglishMain" />
+        </activity>
+        <activity
+            android:name=".Book"
+            android:label="@string/title_Book"
+            android:parentActivityName=".LearningEnglishMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.LearningEnglishMain" />
+        </activity>
+        <activity
+            android:name=".EnNews"
+            android:label="@string/title_EnNews"
+            android:parentActivityName=".LearningEnglishMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.LearningEnglishMain" />
+        </activity>
+        <activity
+            android:name=".EnPoetry"
+            android:label="@string/title_EnPoetry"
+            android:parentActivityName=".LearningEnglishMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.LearningEnglishMain" />
+        </activity>
+        <activity
+            android:name=".WayOfSuccessMain"
+            android:label="@string/title_wayofsuccess_main"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".ArtAndCommerce"
+            android:label="@string/title_artandcommerce"
+            android:parentActivityName=".WayOfSuccessMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".BodyLanguage"
+            android:label="@string/title_bodylanguage"
+            android:parentActivityName=".WayOfSuccessMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".Business"
+            android:label="@string/title_business"
+            android:parentActivityName=".WayOfSuccessMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:parentActivityName=".SportNewsFootball"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.SportNewsFootball" />
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".ItemListActivity"
+            android:label="@string/title_item_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ItemDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".ItemListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.portal.full.appmozoou.Main" />
+        </activity>
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+      <!--  <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>-->
+    </application>
+
+</manifest>

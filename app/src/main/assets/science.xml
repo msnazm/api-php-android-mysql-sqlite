@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+	<weatherdata>
+	    <id>1</id>
+		<city>شیمی و فیزیک</city>
+       	<tempc>خبر های فوتبال، زیبایی و ...</tempc>
+       	<tempf> </tempf>
+		<condition> </condition>
+		<windspeed>5 kmph</windspeed>
+		<icon>chemistryandphysics</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>2</id>
+		<city>نانو تکنولوژی</city>
+		<tempc>سلامت</tempc>
+       	<tempf>73.4°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>nanotechnology</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>3</id>
+		<city>اختراعات</city>
+		<tempc>5°C</tempc>
+       	<tempf>41°F</tempf>
+		<condition> </condition>
+		<windspeed>2 kmph</windspeed>
+		<icon>patents</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>4</id>
+		<city>ماورای طبیعت</city>
+       	<tempc>18°C</tempc>
+       	<tempf>64.4°F</tempf>
+		<condition> </condition>
+		<windspeed>7 kmph</windspeed>
+		<icon>supernatural</icon>
+	</weatherdata>
+	
+</Weather>

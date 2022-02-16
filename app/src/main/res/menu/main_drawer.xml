@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+      <!--  <item android:id="@+id/sport1"
+            android:title="@string/DarmanSport" android:icon="@android:drawable/ic_dialog_info"/>
+        <item android:id="@+id/sport2" android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/BuSport" />
+        <item android:id="@+id/sport3"
+            android:title="@string/Sportent" android:icon="@android:drawable/ic_dialog_info"/>
+        <item android:id="@+id/sport4" android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/title_health" />-->
+        <item android:id="@+id/bookmark"  android:icon="@mipmap/ic_bookmark"
+            android:title="علاقه مندیها"  />
+        <item android:id="@+id/friend" android:icon="@mipmap/ic_shares"
+            android:title="@string/Sharef" />
+
+        <item android:id="@+id/av" android:icon="@mipmap/ic_ad"
+            android:title="تبلیغات" />
+
+
+
+    </group>
+
+    <item android:title="موارد دیگر" >
+        <menu>
+            <!--<item android:id="@+id/setting"
+                android:title="@string/Setting" android:icon="@mipmap/ic_setting"/>-->
+
+            <item android:id="@+id/about" android:icon="@mipmap/ic_about"
+                android:title="@string/about" />
+            <item android:id="@+id/contact" android:icon="@mipmap/ic_call"
+                android:title="تماس با ما" />
+            <item android:id="@+id/help"
+                android:title="@string/help" android:icon="@mipmap/ic_help"/>
+        </menu>
+    </item>
+
+</menu>

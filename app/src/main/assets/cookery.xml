@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+	<weatherdata>
+	    <id>1</id>
+		<city>نکات مهم آشپزی</city>
+       	<tempc>خبر های فوتبال، زیبایی و ...</tempc>
+       	<tempf> </tempf>
+		<condition> </condition>
+		<windspeed>5 kmph</windspeed>
+		<icon>cookingtips</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>2</id>
+		<city>غذاهای رژیمی</city>
+		<tempc>سلامت</tempc>
+       	<tempf>73.4°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>dietfood</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>3</id>
+		<city>نگهداری مواد غذایی</city>
+		<tempc>5°C</tempc>
+       	<tempf>41°F</tempf>
+		<condition> </condition>
+		<windspeed>2 kmph</windspeed>
+		<icon>foodpreservation</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>4</id>
+		<city>انواع شیرینی پزی</city>
+       	<tempc>18°C</tempc>
+       	<tempf>64.4°F</tempf>
+		<condition> </condition>
+		<windspeed>7 kmph</windspeed>
+		<icon>ofpastry</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>5</id>
+		<city>غذاهای طول عمر</city>
+       	<tempc> </tempc>
+       	<tempf>89.6°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>productlongevity</icon>
+	</weatherdata>
+	
+</Weather>

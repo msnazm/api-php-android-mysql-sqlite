@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+	<weatherdata>
+	    <id>1</id>
+		<city>تقویم امروز</city>
+       	<tempc>تقویم امروز</tempc>
+       	<tempf> </tempf>
+		<condition>تقویم امروز</condition>
+		<windspeed>5 kmph</windspeed>
+		<icon>tc</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>2</id>
+		<city>اوقات شرعی</city>
+		<tempc>سلامت</tempc>
+       	<tempf>73.4°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>prayer</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>3</id>
+		<city>روزنامه ها</city>
+		<tempc>5°C</tempc>
+       	<tempf>41°F</tempf>
+		<condition> </condition>
+		<windspeed>2 kmph</windspeed>
+		<icon>newspaper</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>4</id>
+		<city>عکس روز</city>
+       	<tempc>18°C</tempc>
+       	<tempf>64.4°F</tempf>
+		<condition> </condition>
+		<windspeed>7 kmph</windspeed>
+		<icon>photo</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>5</id>
+		<city>طلا</city>
+       	<tempc> </tempc>
+       	<tempf>89.6°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>gold</icon>
+	</weatherdata>
+	<weatherdata>
+		<id>6</id>
+		<city>دلار</city>
+		<tempc> </tempc>
+		<tempf>89.6°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>dollar</icon>
+	</weatherdata>
+	<weatherdata>
+		<id>7</id>
+		<city>بورس</city>
+		<tempc> </tempc>
+		<tempf>89.6°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>exchange</icon>
+	</weatherdata>
+	<weatherdata>
+		<id>8</id>
+		<city>ماشین</city>
+		<tempc> </tempc>
+		<tempf>89.6°F</tempf>
+		<condition>Sunny</condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>car</icon>
+	</weatherdata>
+
+</Weather>

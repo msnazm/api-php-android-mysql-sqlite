@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+	
+	<weatherdata>
+		<id>1</id>
+		<city>اخبار</city>
+		<tempc>خبر های فوتبال، زیبایی و ...</tempc>
+		<tempf> </tempf>
+		<condition>موضوع</condition>
+		<windspeed>5 kmph</windspeed>
+		<icon>news</icon>
+	</weatherdata>
+	
+	<weatherdata>
+		<id>2</id>
+		<city>روانشناسی و سبک زندگی</city>
+		<tempc>خبر های فوتبال، زیبایی و ...</tempc>
+		<tempf> </tempf>
+		<condition>موضوع</condition>
+		<windspeed>5 kmph</windspeed>
+		<icon>lifestyle</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>3</id>
+		<city>سلامت</city>
+		<tempc>سلامت</tempc>
+       	<tempf>73.4°F</tempf>
+		<condition>موضوع</condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>health</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>4</id>
+		<city>آشپزی</city>
+		<tempc>آشپزی</tempc>
+       	<tempf>41°F</tempf>
+		<condition>موضوع</condition>
+		<windspeed>2 kmph</windspeed>
+		<icon>cooking</icon>
+	</weatherdata>
+	<weatherdata>
+	<id>5</id>
+		<city>ورزشی</city>
+       	<tempc>خبر های فوتبال، زیبایی و ...</tempc>
+       	<tempf> </tempf>
+		<condition>موضوع</condition>
+		<windspeed>5 kmph</windspeed>
+		<icon>sports</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>6</id>
+		<city>علمی</city>
+       	<tempc>علمی</tempc>
+       	<tempf>علمی</tempf>
+		<condition>موضوع</condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>science</icon>
+	</weatherdata>
+	<weatherdata>
+		<id>7</id>
+		<city>سرگرمی</city>
+		<tempc>سرگرمی</tempc>
+		<tempf>89.6°F</tempf>
+		<condition>موضوع</condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>fun</icon>
+	</weatherdata>
+	<weatherdata>
+		<id>8</id>
+		<city>بیوگرافی</city>
+		<tempc>بیوگرافی</tempc>
+		<tempf>بیوگرافی</tempf>
+		<condition>موضوع</condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>biography</icon>
+	</weatherdata>
+	<weatherdata>
+		<id>9</id>
+		<city>راه موفقیت و ثروت</city>
+		<tempc>راه موفقیت و ثروت</tempc>
+		<tempf>89.6°F</tempf>
+		<condition>موضوع</condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>way</icon>
+	</weatherdata>
+	
+	<weatherdata>
+		<id>10</id>
+		<city>یادگیری زبان انگلیسی</city>
+		<tempc>یادگیری زبان انگلیسی</tempc>
+		<tempf>89.6°F</tempf>
+		<condition>موضوع</condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>learn</icon>
+	</weatherdata>
+	<weatherdata>
+		<id>11</id>
+		<city>دانلود</city>
+		<tempc>دانلود نرم افزار و بازی اندروید</tempc>
+		<tempf>89.6°F</tempf>
+		<condition>موضوع</condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>download</icon>
+	</weatherdata>
+</Weather>

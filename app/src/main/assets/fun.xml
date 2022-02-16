@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+<weatherdata>
+	    <id>1</id>
+		<city>شعر عاشقانه</city>
+       	<tempc>خبر های فوتبال، زیبایی و ...</tempc>
+       	<tempf> </tempf>
+		<condition> </condition>
+		<windspeed>5 kmph</windspeed>
+		<icon>lovepoem</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>2</id>
+		<city>متن عاشقانه</city>
+       	<tempc>خبر های فوتبال، زیبایی و ...</tempc>
+       	<tempf> </tempf>
+		<condition> </condition>
+		<windspeed>5 kmph</windspeed>
+		<icon>romantictext</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>3</id>
+		<city>انواع پیامها</city>
+       	<tempc>خبر های فوتبال، زیبایی و ...</tempc>
+       	<tempf> </tempf>
+		<condition> </condition>
+		<windspeed>5 kmph</windspeed>
+		<icon>message</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>4</id>
+		<city>کاریکاتور</city>
+       	<tempc>خبر های فوتبال، زیبایی و ...</tempc>
+       	<tempf> </tempf>
+		<condition> </condition>
+		<windspeed>5 kmph</windspeed>
+		<icon>caricature</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>5</id>
+		<city>فال و طالع بینی</city>
+		<tempc>سلامت</tempc>
+       	<tempf>73.4°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>fortunetellinghoroscope</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>6</id>
+		<city>متن خنده دار</city>
+		<tempc>5°C</tempc>
+       	<tempf>41°F</tempf>
+		<condition> </condition>
+		<windspeed>2 kmph</windspeed>
+		<icon>funnytext</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>7</id>
+		<city>معما</city>
+       	<tempc>18°C</tempc>
+       	<tempf>64.4°F</tempf>
+		<condition> </condition>
+		<windspeed>7 kmph</windspeed>
+		<icon>mystery</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>8</id>
+		<city>ضرب المثل</city>
+       	<tempc> </tempc>
+       	<tempf>89.6°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>proverb</icon>
+	</weatherdata>
+	
+
+</Weather>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+	<weatherdata>
+	    <id>1</id>
+		<city>بازیگران</city>
+       	<tempc>خبر های فوتبال، زیبایی و ...</tempc>
+       	<tempf> </tempf>
+		<condition> </condition>
+		<windspeed>5 kmph</windspeed>
+		<icon>actors</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>2</id>
+		<city>ورزشگاران</city>
+		<tempc>سلامت</tempc>
+       	<tempf>73.4°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>athlete</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>3</id>
+		<city>خوانندگان</city>
+		<tempc>5°C</tempc>
+       	<tempf>41°F</tempf>
+		<condition> </condition>
+		<windspeed>2 kmph</windspeed>
+		<icon>aeaders</icon>
+	</weatherdata>
+	
+</Weather>

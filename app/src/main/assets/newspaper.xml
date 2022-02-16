@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+	<weatherdata>
+	    <id>1</id>
+		<city>نود</city>
+       	<tempc>خبر های فوتبال، زیبایی و ...</tempc>
+       	<tempf> </tempf>
+		<condition> </condition>
+		<windspeed>5 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>2</id>
+		<city>آفتاب</city>
+		<tempc>سلامت</tempc>
+       	<tempf>73.4°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>3</id>
+		<city>آرمان</city>
+		<tempc>5°C</tempc>
+       	<tempf>41°F</tempf>
+		<condition> </condition>
+		<windspeed>2 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>4</id>
+		<city>عصر اقتصاد</city>
+       	<tempc>18°C</tempc>
+       	<tempf>64.4°F</tempf>
+		<condition> </condition>
+		<windspeed>7 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>5</id>
+		<city>بانی فیلم</city>
+       	<tempc> </tempc>
+       	<tempf>89.6°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+		<id>6</id>
+		<city>دنیای اقتصاد</city>
+		<tempc> </tempc>
+		<tempf>89.6°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+		<id>7</id>
+		<city>استقلال</city>
+		<tempc> </tempc>
+		<tempf>89.6°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+		<id>8</id>
+		<city>اعتماد</city>
+		<tempc> </tempc>
+		<tempf>89.6°F</tempf>
+		<condition>Sunny</condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+<weatherdata>
+	    <id>9</id>
+		<city>گل</city>
+       	<tempc>خبر های فوتبال، زیبایی و ...</tempc>
+       	<tempf> </tempf>
+		<condition> </condition>
+		<windspeed>5 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>10</id>
+		<city>هفت صبح</city>
+		<tempc>سلامت</tempc>
+       	<tempf>73.4°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>11</id>
+		<city>همشهری</city>
+		<tempc>5°C</tempc>
+       	<tempf>41°F</tempf>
+		<condition> </condition>
+		<windspeed>2 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>12</id>
+		<city>ایران</city>
+       	<tempc>18°C</tempc>
+       	<tempf>64.4°F</tempf>
+		<condition> </condition>
+		<windspeed>7 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>13</id>
+		<city>ایران ورزشی</city>
+       	<tempc> </tempc>
+       	<tempf>89.6°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+		<id>14</id>
+		<city>جهان صنعت</city>
+		<tempc> </tempc>
+		<tempf>89.6°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+		<id>15</id>
+		<city>جام جم</city>
+		<tempc> </tempc>
+		<tempf>89.6°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+		<id>16</id>
+		<city>کسب و کار</city>
+		<tempc> </tempc>
+		<tempf>89.6°F</tempf>
+		<condition>Sunny</condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+<weatherdata>
+	    <id>17</id>
+		<city>کیهان</city>
+		<tempc>سلامت</tempc>
+       	<tempf>73.4°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>18</id>
+		<city>خبر ورزشی</city>
+		<tempc>5°C</tempc>
+       	<tempf>41°F</tempf>
+		<condition> </condition>
+		<windspeed>2 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+	
+	    <id>19</id>
+		<city>خراسان ورزشی</city>
+       	<tempc>18°C</tempc>
+       	<tempf>64.4°F</tempf>
+		<condition> </condition>
+		<windspeed>7 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>20</id>
+		<city>مردم سالاری</city>
+       	<tempc> </tempc>
+       	<tempf>89.6°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+		<id>21</id>
+		<city>پیروزی</city>
+		<tempc> </tempc>
+		<tempf>89.6°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+	<weatherdata>
+		<id>22</id>
+		<city>شرق</city>
+		<tempc> </tempc>
+		<tempf>89.6°F</tempf>
+		<condition> </condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>newspaperone</icon>
+	</weatherdata>
+</Weather>
